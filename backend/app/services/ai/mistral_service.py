@@ -115,7 +115,7 @@ Document:
 def ask_mistral(prompt: str):
 
     headers = {
-        "Authorization": f"Bearer {MISTRAL_API_KEY}",
+        "Authorization": f"Bearer aDzsOBm8nbVI8WVp2FpO6tcD71xJvNQD",
         "Content-Type": "application/json"
     }
 
