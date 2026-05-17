@@ -63,6 +63,8 @@ def login(user: UserLogin, db: Session = Depends(get_db)):
         user.password,
         existing_user.password
     )
+    print("INPUT PASSWORD:", user.password)
+    print("DB PASSWORD:", existing_user.password)
 
     if not valid_password:
         raise HTTPException(
